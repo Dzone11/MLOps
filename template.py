@@ -11,14 +11,14 @@ list_of_files = [
     "src/components/model_evaluation.py",
     "src/pipeline/__init__.py",
     "src/pipeline/training_pipeline.py",
-    "src/pipeline/prediction_pipeline.py"
-    "src/utils/__init__.py"
+    "src/pipeline/prediction_pipeline.py",
+    "src/utils/__init__.py",
     "src/utils/utils.py",
     "src/logger/logging.py",
     "Src/exception/exception.py",
     "tests/unit/__init__.py",
-    "tests/integration/__init__.py"
-    "init_Setup.sh",
+    "tests/integration/__init__.py",
+    "init_setup.sh",
     "requirements.txt",
     "requirements_dev.txt",
     "setup.py",
@@ -26,6 +26,7 @@ list_of_files = [
     "pyproject.toml",
     "tox.ini",
     "experiment/experiments.ipynb"]
+
 
 for filepath in list_of_files:
     filepath = Path(filepath)
