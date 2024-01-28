@@ -5,7 +5,9 @@ seaborn
 flask
 mlflow==2.2.2
 dvc
-
+seaborn
+matplotlib
+ipykernel
 # dev requireqments
 
 pytest==7.1.3
